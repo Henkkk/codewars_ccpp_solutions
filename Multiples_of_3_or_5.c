@@ -8,7 +8,7 @@ int solution(int number) {
 	float sum = 0;
 
 	for (float x = 1; x <= three_multi; x++){
-		if (fmod(3*x, 15) == 0){
+		if (fmod(3*x, 15) == 0){ //fmod imported from math.h library
 			sum += (3 * x)/2;
 		}
 		else {
